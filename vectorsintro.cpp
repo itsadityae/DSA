@@ -7,7 +7,7 @@ int main()
 {
 
     vector<int> vec;
-    // In this code we will see how the capacity of vector is increased when we add elements to it.
+    // In this code we will see how the capacity of vector is increased when we add elements into it.
     vec.push_back(10);
     cout << "size of the vector: " << vec.size() << endl;
     cout << "Capacity of vector: " << vec.capacity() << "\n"
